@@ -8,25 +8,26 @@
     tools:showIn="@layout/fragment_sebha">
 
     <ImageView
-        android:id="@+id/sebha_id"
+        android:id="@+id/sebha_image"
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:src="@drawable/sebha_image"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/sebha_imagee"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/sebha_num"
+        android:id="@+id/sebha_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="عدد التسبيحات"
         android:textColor="@color/black"
         android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="@id/sebha_id"
-        app:layout_constraintStart_toStartOf="@id/sebha_id"
-        app:layout_constraintTop_toBottomOf="@id/sebha_id" />
+        app:layout_constraintEnd_toEndOf="@id/sebha_image"
+        app:layout_constraintStart_toStartOf="@id/sebha_image"
+        app:layout_constraintTop_toBottomOf="@id/sebha_image" />
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/sebha_count"
@@ -38,12 +39,13 @@
         android:textColor="@color/black"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@id/sebha_num"
-        app:layout_constraintStart_toStartOf="@id/sebha_num"
-        app:layout_constraintTop_toBottomOf="@id/sebha_num"
+        app:layout_constraintEnd_toEndOf="@id/sebha_title"
+        app:layout_constraintStart_toStartOf="@id/sebha_title"
+        app:layout_constraintTop_toBottomOf="@id/sebha_title"
         tools:text="30" />
 
     <TextView
+        android:id="@+id/sebha_action"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
