@@ -17,4 +17,20 @@ class SebhaFragment : Fragment() {
         viewBinding = FragmentSebhaBinding.inflate(inflater, container, false)
         return viewBinding.root
     }
+
+    var angle = 0
+    var count = 0
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        sebhaClick()
+    }
+
+    private fun sebhaClick() {
+        viewBinding.contentSebha.sebhaAction.setOnClickListener {
+            angle += 1;
+            viewBinding.contentSebha.sebhaImage.setRotation(angle.toFloat());
+            viewBinding.contentSebha.sebhaCount.text = count.toString()
+            count++
+        }
+    }
 }
