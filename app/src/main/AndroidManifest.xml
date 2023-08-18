@@ -16,7 +16,7 @@
             android:name=".ui.home.HomeActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.home.tabs.chapterdeatils.SuraDetailsActivity"
+            android:name=".ui.chapterdeatils.SuraDetailsActivity"
             android:exported="false" />
         <activity
             android:name=".ui.splash.SplashActivity"
@@ -27,6 +27,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.hadethdeatils.hadethDetails"
+            android:exported="false" />
 
         <meta-data
             android:name="preloaded_fonts"
