@@ -9,6 +9,7 @@ import com.example.islami.databinding.ActivityHomeBinding
 import com.example.islami.ui.home.tabs.hadeth.HadethFragment
 import com.example.islami.ui.home.tabs.quran.QuranFragment
 import com.example.islami.ui.home.tabs.radio.RadioFragment
+import com.example.islami.ui.home.tabs.sebha.SebhaFragment
 import com.google.android.material.navigation.NavigationBarView
 
 class HomeActivity : AppCompatActivity() {
@@ -36,7 +37,7 @@ class HomeActivity : AppCompatActivity() {
                     }
 
                     R.id.navigation_sebha -> {
-                        showTabFragment(RadioFragment())
+                        showTabFragment(SebhaFragment())
                     }
                 }
                 return true

@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.example.islami.databinding.FragmentQuranBinding
-import com.example.islami.ui.home.tabs.Constant
-import com.example.islami.ui.home.tabs.chapterdeatils.SuraDetailsActivity
+import com.example.islami.ui.Constant
+import com.example.islami.ui.chapterdeatils.SuraDetailsActivity
 
 class QuranFragment : Fragment() {
     lateinit var viewBinding: FragmentQuranBinding
