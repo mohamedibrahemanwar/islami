@@ -1,9 +1,9 @@
-package com.example.islami.ui.home.tabs.chapterdeatils
+package com.example.islami.ui.chapterdeatils
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.islami.databinding.ActivitySuraDetailsBinding
-import com.example.islami.ui.home.tabs.Constant
+import com.example.islami.ui.Constant
 
 class SuraDetailsActivity : AppCompatActivity() {
     lateinit var viewBinding: ActivitySuraDetailsBinding
