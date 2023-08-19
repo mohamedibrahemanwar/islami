@@ -21,7 +21,7 @@
         android:id="@+id/sebha_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
         android:text="عدد التسبيحات"
         android:textColor="@color/black"
         android:textSize="25sp"
@@ -54,6 +54,7 @@
         android:text="سبحان الله"
         android:textColor="@color/black"
         android:textSize="25sp"
+
         app:layout_constraintEnd_toEndOf="@id/sebha_count"
         app:layout_constraintStart_toStartOf="@id/sebha_count"
         app:layout_constraintTop_toBottomOf="@id/sebha_count" />
